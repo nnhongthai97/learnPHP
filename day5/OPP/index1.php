@@ -52,6 +52,31 @@ class Student {
         echo "<br>Tuổi của sinh viên : " . $this->age;
         echo "<br>Quê hương của sinh viên : " . $this->location;
     }
+    /**
+     * Phương thức tính điểm trung bình
+     * @param $point_arr_param
+     * @return bool
+     */
+    public function calculatePoint($point_arr_param) {
+        /**
+         * is_array() kiểm tra biến có phải 1 mảng hay không
+         * !empty() check không rỗng
+         * empty() check rỗng
+         * ! toán tử ! phủ định người lại
+         */
+        if (is_array($point_arr_param) && !empty($point_arr_param)) {
+            $count = 0;
+            $total = 0;
+            foreach($point_arr_param as $key => $value) {
+                // $total = $total + value;
+                $total += $value;
+                $count++;
+            }
+            $point = $total/$count;
+            $this->point = $point;
+        }
+        return false;
+    }
 } // kết thúc class
 /**
  * Khởi tạo đối tượng cụ thể của class
@@ -77,4 +102,15 @@ echo "<br> In ra cấu trúc của class";
 echo "<pre>";
 print_r($tuan);
 echo "</pre>";
-?>
+// Gọi đến phương thức calculatePoint()
+$point = array(
+    'java' => 5,
+    'database' => 3,
+    'php' => 6,
+    'html' => 2,
+    'oop' => 7,
+    '.net' => 9
+);
+// gọi đến phương thức của class
+$tuan->calculatePoint($point);
+echo "<br>diem trung binh : " . $tuan->point;
