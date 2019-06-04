@@ -15,4 +15,5 @@
     <?php echo "chao php"; ?>
     <?php echo "chao ban";?>
 </body>
+
 </html>
