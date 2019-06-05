@@ -114,3 +114,4 @@ $point = array(
 // gọi đến phương thức của class
 $tuan->calculatePoint($point);
 echo "<br>diem trung binh : " . $tuan->point;
+?>
