@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5a3c7dc-c10e-46e6-85ba-794fc537df61" name="Default Changelist" comment="php cơ bản">
-      <change afterPath="$PROJECT_DIR$/Abstruct/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abstruct/mysqlDatabase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/mysqlDatabase.php" afterDir="false" />
+    <list default="true" id="e5a3c7dc-c10e-46e6-85ba-794fc537df61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +14,7 @@
     <session id="1491221997">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -29,12 +25,13 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -47,14 +44,14 @@
         <counts>
           <entry key="HTML" value="339" />
           <entry key="PHP" value="4770" />
-          <entry key="PLAIN_TEXT" value="1624" />
+          <entry key="PLAIN_TEXT" value="1672" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Abstruct/mysqlDatabase.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -64,22 +61,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Abstruct/database.php">
+        <entry file="file://$PROJECT_DIR$/interface/mysqlDatabase.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interface/mysqlDatabase.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/database.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -191,6 +187,11 @@
             <path>
               <item name="learnphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnphp" type="462c0819:PsiDirectoryNode" />
+              <item name="Abstruct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnphp" type="462c0819:PsiDirectoryNode" />
               <item name="day5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,14 +264,8 @@
       <workItem from="1559411285061" duration="15369000" />
       <workItem from="1559615144058" duration="17440000" />
       <workItem from="1560007733926" duration="2331000" />
-      <workItem from="1560669596906" duration="10725000" />
-    </task>
-    <task id="LOCAL-00018" summary="vòng lặp swith case trong php">
-      <created>1558874476615</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1558874476615</updated>
+      <workItem from="1560669596906" duration="10933000" />
+      <workItem from="1560701997560" duration="620000" />
     </task>
     <task id="LOCAL-00019" summary="vong lap while">
       <created>1558874502128</created>
@@ -608,17 +603,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560692115172</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="abstruct vs interface">
+      <created>1560693506870</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1560693506870</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80050000" />
+    <option name="totallyTimeSpent" value="80878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3184569" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -669,7 +670,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="biến toàn cục vs biến cục bộ" />
     <MESSAGE value="truyền tham chiếu vs truyền tham trị" />
     <MESSAGE value="$GET trong php" />
     <MESSAGE value="get trong php" />
@@ -694,7 +694,8 @@
     <MESSAGE value="opp php" />
     <MESSAGE value="productModel trong php" />
     <MESSAGE value="public private protect trong php" />
-    <option name="LAST_COMMIT_MESSAGE" value="public private protect trong php" />
+    <MESSAGE value="abstruct vs interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstruct vs interface" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day2/ifelseif.php">
@@ -870,16 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/OPP/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#467#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/OPP/index2.php" />
     <entry file="file://$PROJECT_DIR$/day5/OPP/index1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="839">
@@ -887,9 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/OPP/opp4.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/OPP/opp4.php" />
     <entry file="file://$PROJECT_DIR$/day5/OPP/opp3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -904,31 +894,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface.php" />
     <entry file="file://$PROJECT_DIR$/day5/OPP/productModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
           <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day5/OPP/opp2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Abstruct/mysqlDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -939,11 +909,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface/mysqlDatabase.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/OPP/opp2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstruct/mysqlDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
